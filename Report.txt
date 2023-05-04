@@ -1,0 +1,30 @@
+Assignment 1 Report
+
+Name: Niranjani Kailas Wagh
+
+1. Performance on the development data with 100% of the training data
+1a. spam precision:0.993088194636439
+1b. spam recall:0.9774149659863945
+1c. spam F1 score:0.9851892484914975
+1d. ham precision:0.9467265725288831
+1e. ham recall:0.9833333333333333
+1f. ham F1 score:0.9646827992151734
+
+2. Performance on the development data with 10% of the training data
+2a. spam precision:0.9766547651744026
+2b. spam recall:0.9676190476190476
+2c. spam F1 score:0.9721159103335155 
+2d. ham precision:0.9224250325945241
+2e. ham recall:0.9433333333333334
+2f. ham F1 score:0.932762030323006
+
+3. Description of enhancement(s) you tried (e.g., different approach(es) to smoothing, treating common words differently, dealing with unknown words differently):
+In my task one I have considered all the values alphabets, digits, punctuations whereas in task three, I have removed all numbers and the punctuations which has helped my accuracy by 1.0%. I have used the function isalpha() to seperate out the string type from numbers.
+
+4. Best performance results based on enhancements. Note that these could be the same or worse than the standard implementation.
+4a. spam precision:0.9972229936128854
+4b. spam recall:0.9771428571428571
+4c. spam F1 score:0.9870808136338648 
+4d. ham precision:0.9466327827191868
+4e. ham recall:0.9933333333333333
+4f. ham F1 score:0.9694209499024073
